@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
               scale: 1,
               blurRadius: 10,
               borderRadius: 20,
-              image: Image.asset('assets/cat.png',
+              image: Image.asset('images/test.jpg',
                 width: 300,),
             ),
           )
