@@ -1,7 +1,10 @@
 
-Package for creating drop shadow effect of an image.
+#drop_shadow_image
 
-![Example ](https://raw.githubusercontent.com/lalitjarwal/shadowed_image/master/images/shadow%20snap.jpg)
+Package for creating drop shadow effect of an image, with lots of properties to apply.
+
+![Example ](https://github.com/saquibansari0101/drop_shadow_image/example.jpg)
+
 ## Installation
 
 1. Add this to your package's `pubspec.yaml` file:
@@ -31,14 +34,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Shadowed Image Example'),
-        ),
-        // body: Center(
-        //   child: DropShadowImage(
-        //     image: Image.asset('assets/cat.png'),
-        //   ),
-        // ),
         body:
         Center(
           child: DropShadowImage(
@@ -58,16 +53,16 @@ class MyApp extends StatelessWidget {
 ```
 
 ## Properties of the lass
-
+```
 1. Key key
  
 2. double scale  // Size to parent. 
 
-3. Offset offset  // Position of shadow. Takes 2 arguments- first one (dx) for horizontal component and second (dy) for vertical component.
+3. Offset offset  // Position of shadow. (dx) for horizontal displacement (dy) for vertical displacement.
 
 4. double blurRadius // Amount of blur in the shadow. 0 means no blur.
 
 5. double borderRadius //  border radius of image
 
 6. Image image (@required) // The image.
-
+```
