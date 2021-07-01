@@ -3,7 +3,7 @@
 
 Package for creating drop shadow effect of an image, with lots of properties to apply.
 
-![Example ](https://github.com/saquibansari0101/drop_shadow_image/example.jpg)
+![Example ](https://github.com/saquibansari0101/drop_shadow_image/blob/main/example.jpg)
 
 ## Installation
 
