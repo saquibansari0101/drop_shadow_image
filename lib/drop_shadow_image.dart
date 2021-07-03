@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 ///A widget that caste a shadow of same color scheme as the image.
 ///
-///Use [ShadowedImage] widget with provided Image.
+///Use [DropShadowedImage] widget with provided Image.
 class DropShadowImage extends StatelessWidget {
   final Key? key;
 
